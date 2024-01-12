@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- styles -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
     <title>Jogo Da Memoria</title>
 </head>
 <body>
-    <main class="container">
-        <h2>Jogo da Memória</h2>
+    <h2>Jogo da Memória</h2>
+
+    <main class="container">    
         <div class="game"></div>
-        <button onclick="window.location.reload()">reset</button>
     </main>
 
-    <script src="engine.js"></script>
+    <button onclick="window.location.reload()" class="reset">reset</button>
+
+    <script src="./assets/scripts/engine.js"></script>
 </body>
 </html>
